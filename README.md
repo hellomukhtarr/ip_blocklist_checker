@@ -2,7 +2,7 @@
 Lightweight Python utility that cross-references a list of IP addresses against a blocklist and outputs approved IPs for network access control workflows.
 
 How it works
-Reads Input Files: Loads ip_addresses.txt and blocked_ip.txt, skipping the first line (header) in each file.
+Reads Input Files: Loads ip_addresses.txt and blocked_ip.txt.
 
 Filters Blocked IPs: Compares each candidate IP against the blocklist 
 
